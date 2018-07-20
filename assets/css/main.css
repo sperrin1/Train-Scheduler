@@ -1,3 +1,31 @@
 body {
     background-color: blanchedalmond;
 }
+
+body {
+       background: url('../image/cherry.jpg') no-repeat center center fixed;
+       -webkit-background-size: cover;
+       -moz-background-size: cover;
+       -o-background-size: cover;
+       background-size: cover;
+  }
+
+
+.jumbotron {
+    color: white;
+    background-color: rgba(0,0,0,0.3);
+    min-width: 800px;
+}
+
+.schedule-container {
+    min-width: 800px;
+}
+
+.input-container {
+    min-width: 800px;
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 6px;
+}
