@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7"
         crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/main.css">
+
     <script src="https://www.gstatic.com/firebasejs/5.3.0/firebase.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/jquery-ui.min.js"></script>
@@ -47,6 +48,7 @@
                                 <th class="col-xs-2">Minutes Away
                                 </th>
                             </tr>
+                            <tbody id="table-data"></tbody>
                         </table>
                     </div>
                 </div>
@@ -91,20 +93,8 @@
         </div>
     </div>
 
-    <script src="https://www.gstatic.com/firebasejs/5.3.0/firebase.js"></script>
-    <script>
-        // Initialize Firebase
-        var config = {
-            apiKey: "AIzaSyDwPLaBLFsgi0GCzKKwf7kHdx3XqbYhN8o",
-            authDomain: "train-sheduler.firebaseapp.com",
-            databaseURL: "https://train-sheduler.firebaseio.com",
-            projectId: "train-sheduler",
-            storageBucket: "",
-            messagingSenderId: "770469942314"
-        };
-        firebase.initializeApp(config);
-    </script>
-    <script src="assets/javascript/app.js"></script>
 </body>
+
+<script src="assets/javascript/app.js"></script>
 
 </html>

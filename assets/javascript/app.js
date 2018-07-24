@@ -15,6 +15,17 @@ var minutesTillTrain = '';
 var keyHolder = '';
 var getKey = '';
 
+// Initialize Firebase
+var config = {
+    apiKey: "AIzaSyDwPLaBLFsgi0GCzKKwf7kHdx3XqbYhN8o",
+    authDomain: "train-sheduler.firebaseapp.com",
+    databaseURL: "https://train-sheduler.firebaseio.com",
+    projectId: "train-sheduler",
+    storageBucket: "",
+    messagingSenderId: "770469942314"
+};
+firebase.initializeApp(config);
+
 $(document).ready(function () {
 
     $("#add-train").on("click", function () {
